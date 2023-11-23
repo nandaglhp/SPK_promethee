@@ -1,0 +1,86 @@
+/* style.css */
+
+/* Gaya untuk body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 40px;
+}
+
+/* Gaya untuk judul h1 */
+h1 {
+  text-align: left;
+}
+
+/* Gaya untuk panel */
+.panel {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+/* Gaya untuk footer panel */
+.panel-footer {
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+}
+
+/* Gaya untuk tabel */
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Gaya untuk sel header tabel */
+.table th {
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* Gaya untuk sel data tabel */
+.table td {
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* Gaya untuk tombol */
+button[name="submit"] {
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+button[name="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Gaya untuk table-responsive */
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Gaya khusus untuk tabel yang tidak memiliki border */
+.table--no-card {
+  border: none;
+  border-collapse: collapse;
+}
+
+/* Gaya untuk baris bold pada tabel */
+.table tbody tr:hover {
+  font-weight: bold;
+  background-color: #f9f9f9;
+}
